@@ -114,4 +114,7 @@ int main() {
     list.addFirst(10);
     list.addLast(100);
     list.printList();
+
+    DoubleNode *B = new DoubleNode();
+    DoubleLinkedList list2 = DoubleLinkedList(B, B);
 }
